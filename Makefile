@@ -7,7 +7,7 @@ OUTPUT_DIR = out
 DOCNAME = 'recipes.pdf'
 METADATA = metadata.yml
 LAYOUT = layout.yml
-RECIPES = $(wildcard recipes/*.yml) $(wildcard recipes/*.yaml)
+RECIPES = $(wildcard recipes/*.yml) $(wildcard recipes/*.yaml) $(wildcard recipes/**/*.yml) $(wildcard recipes/**/*.yaml)
 BODY = body.md
 SRC_FILES = $(METADATA) $(RECIPES) $(LAYOUT)
 

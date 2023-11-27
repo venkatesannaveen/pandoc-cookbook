@@ -4,3 +4,36 @@ sujeonggwa: &sujeonggwa
   categories:
     - korean
     - cinnamon
+  source:
+    other: Adapted from source
+    url: https://www.corianderandlace.com/korean-cinnamon-ginger-punch-sujeonggwa/#tasty-recipes-6965-jump-target
+  yield:
+    amount: 4
+    unit: cups
+  cookware:
+    - 2 liter saucepan
+  times:
+    - name: Preparation
+      mm: 10
+    - name: Cook
+      mm: 40
+  ingredients:
+    - name: Water
+      amount: 4
+      unit: cups
+    - name: Ginger
+      amount: 10
+      unit: g
+      processing: peeled and sliced
+    - name: Cinnamon Sticks
+      amount: 13
+      unit: g
+      processing: washed
+    - name: Brown Sugar
+      amount: 70
+      unit: g
+  method:
+    - step: Add water, cinnamon sticks, and ginger to a saucepan and bring to a boil.
+    - step: Cover with lid and simmer for 40 minutes.
+    - step: Turn off heat, remove ginger and cinnamon, add brown sugar and stir to dissolve.
+    - step: Filter liquid through strainer and refridgerate. Serve chilled.
