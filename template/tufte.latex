@@ -276,11 +276,11 @@ $if(it.source)$
 \begin{fullwidth}
 \newthought{source}:
 $if(it.source.other)$
-$it.source.other$.
+$it.source.other$
 $endif$
 $if(it.source.url)$
 \newline
-\href{$it.source.url$}{$it.source.url$}.
+\href{$it.source.url$}{$it.source.url$}
 $elseif(it.source.book)$
 \textit{$it.source.book.title$}, $if(it.source.book.author)$$for(it.source.book.author)$$it.first$ $it.last$$sep$, $endfor$, $endif$$if(it.source.book.edition)$$it.source.book.edition$$endif$$if(it.source.book.year)$ ($it.source.book.year$)$endif$.
 $else$
