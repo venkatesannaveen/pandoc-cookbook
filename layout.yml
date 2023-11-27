@@ -8,20 +8,20 @@ chapters:
  - name: Food
    recipes:
      - *kimchi
-     - *african-peanut-stew
-     - *okonomiyaki
-     - *sake-bag-bass
+    # - *african-peanut-stew
+    # - *okonomiyaki
+    # - *sake-bag-bass
  - name: Drinks
    recipes:
-     # You might not want an hrule at the end of some recipes.
-     # For example, the first short recipe of a chapter.
-     # Disable the hrule by merging the recipe in with the nohrule field.
-     - <<: *manhattan
-       nohrule: true
-     # Or just include the recipe and let the global template styling do its thing.
+    # You might not want an hrule at the end of some recipes.
+    # For example, the first short recipe of a chapter.
+    # Disable the hrule by merging the recipe in with the nohrule field.
+    # - <<: *manhattan
+    #   nohrule: true
+    # Or just include the recipe and let the global template styling do its thing.
      - *sujeonggwa
-     - *toronto
-     - *gin-and-tonic
-     - *tom-collins
+    # - *toronto
+    # - *gin-and-tonic
+    # - *tom-collins
 # This document terminator is required!
 ...
