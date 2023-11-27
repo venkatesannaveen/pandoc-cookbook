@@ -1,15 +1,15 @@
 # This file *must* begin with a document delimiter!
 ---
 # The title of this book.
-title: Pandoc Cookbook
+title: Venkatesan Cookbook
 # An optional subtitle.
 subtitle: YAML recipes for all!
 # Setting title-page to false will produce a tufte-handout style document.
 title-page: true
 # The author list.
 author:
-  - first: Keefer
-    last: Rourke
+  - first: Naveen
+    last: Venkatesan
 # Set to true if you want copyright information to be included in the book
 # front matter.
 # Copyright information consists of the edition, publisher and license.
