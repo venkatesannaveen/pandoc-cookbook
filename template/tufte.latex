@@ -335,7 +335,7 @@ $else$
 \vspace{-12pt plus 2pt minus 2pt}
 $endif$
 \newthought{$it.type/lowercase$}$if(it.categories)$: $for(it.categories)$$it$\index{$it$}$sep$, $endfor$$endif$
-\index{$it.type/lowercase$}
+\index{$it.name/lowercase$}
 
 $if(it.yields)$
 \vspace{-12pt plus 2pt minus 2pt}
