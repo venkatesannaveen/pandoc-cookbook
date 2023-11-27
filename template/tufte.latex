@@ -278,9 +278,7 @@ $if(it.source)$
 $if(it.source.other)$
 $it.source.other$
 $endif$
-$if(it.source.url)$
-\newline
-\href{$it.source.url$}{$it.source.url$}
+$if(it.source.url)$ --- \href{$it.source.url$}{Link}
 $elseif(it.source.book)$
 \textit{$it.source.book.title$}, $if(it.source.book.author)$$for(it.source.book.author)$$it.first$ $it.last$$sep$, $endfor$, $endif$$if(it.source.book.edition)$$it.source.book.edition$$endif$$if(it.source.book.year)$ ($it.source.book.year$)$endif$.
 $else$
@@ -341,12 +339,12 @@ $endif$
 
 $if(it.yields)$
 \vspace{-12pt plus 2pt minus 2pt}
-\newthought{yields}: $it.yields.amount$ $it.yields.unit$.
+\newthought{yields}: $it.yields.amount$ $it.yields.unit$
 $endif$
 
 $if(it.cookware)$
 \vspace{-12pt plus 2pt minus 2pt}
-\newthought{cookware}: $for(it.cookware)$$it/lowercase$$sep$, $endfor$.
+\newthought{cookware}: $for(it.cookware)$$it/lowercase$$sep$, $endfor$
 $endif$
 
 $if(it.ingredients)$
