@@ -1,0 +1,79 @@
+kimchi: &kimchi
+  name: Kimchi
+  type: food
+  categories:
+    - korean
+    - fermented
+    - spicy
+  ingredients:
+    - name: Napa Cabbage
+      amount: 2500
+      unit: g
+    - name: Red Chilis (고추)
+      amount: 4
+      notes: Ideally Korean red chilis, but use Fresno peppers or red jalapenos if not available
+    - name: Green Onions
+      amount: 6
+      notes: Amount based on smaller US green onions, if using Korean green onion adjust accordingly
+    - name: Mild Gochugaru
+      amount: 7
+      unit: tbsp
+    - name: Spicy Gochugaru
+      amount: 3
+      unit: tbsp
+      notes: Optional - if you want the kimchi spicier
+    - name: Ginger
+      amount: 1
+      unit: knob
+      notes: Get gram measurement of this
+    - name: Garlic
+      amount: 10
+      unit: cloves
+      notes: Need to get exact amount, forgot to write down
+    - name: Sugar
+      amount: 2
+      unit: tbsp
+    - name: Rice Flour
+      amount: 3
+      unit: tbsp
+      substitutions:
+        list:
+          - name: All-Purpose Flour
+          - name: Cooked Rice
+    - name: White Onion
+      amount: \sfrac{1}{2}
+    - name: Korean Chives
+      amount: 30
+      notes: Optional - need to get exact amount
+    - name: Kimchi Salt
+      amount: 2 \sfrac{1}{2}
+      unit: cup
+      notes: 1 cup of salt per 1000g of napa cabbage
+
+  method:
+    - step: Remove all the outside green leaves from the napa cabbage.
+    - step: Cut the napa cabbage in half lengthwise - only cut through the bottom stem and separate by hand.
+    - step: Separate each half into quarters (same method as previous step).
+    - step: Remove the root end with a knife and cut each quarter of the napa cabbage into bite-sized pieces.
+    - step: Wash the cut napa cabbage pieces - pay particular attention to removing any soil.
+    - step: >
+            In a large bowl, add one layer of napa cabbage, followed by a layer of kimchi salt.
+            Repeat this layer-by-layer until you have salted all of the cut napa cabbage.
+      notes: The white part of the napa cabbage salts slower than the leaves so make sure you have properly salted these areas.
+    - step: Mix some salt into a few tbsp of warm water and dissolve - drip over the bowl of salted napa cabbage.
+    - step: Mix 1 cup of water with the flour in a saucepan without heat until smooth.
+    - step: Turn on the stove to medium and keep stirring until it forms a thick slurry.
+    - step: Turn off the heat and keep stirring until the mixture is cooled.
+    - step: >
+            In a blender, first blend the onion with a little bit of water until it forms a smooth paste.
+            Add in the garlic, ginger, and chilis and blend until the mixture is still slightly chunky, but not totally smooth.
+    - step: Put the cooled flour slurry from earlier into a bowl.
+    - step: Add the mild gochugaru and stir into the slurry.
+    - step: Add the mixture from the blender and stir to combine.
+    - step: Add the sugar in a bit at a time and stir to combine.
+    - step: Optional - add spicy gochugaru to adjust the heat level.
+    - step: After 1 hour, flip the salted napa cabbage in the bowl to more evenly distribute the salt.
+    - step: Chop the green onion and chives into a small pieces (about \sfrac{1}{2}\" pieces).
+    - step: Rinse all the salt off of the napa cabbage - you can taste both the white parts and leaves to make sure of the salt level.
+    - step: Toss the rinsed napa cabbage with the green onions, chives, and spicy flour slurry and gently fold together with gloves.
+    - step: Pack the tossed kimchi into a glass container and let it ferment at room temperature for a few days before moving to the refridgerator.

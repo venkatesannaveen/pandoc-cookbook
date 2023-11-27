@@ -33,6 +33,7 @@ $endif$
 \usepackage[font={footnotesize,bf},format=plain,justification=justified,singlelinecheck=false]{caption}
 \usepackage{longtable}
 \usepackage{tabularx}
+\usepackage{kotex}
 \usepackage{xfrac} % Allows slanted fractions
 \usepackage{microtype} % Improves character and word spacing
 \usepackage{booktabs} % Better horizontal rules in tables

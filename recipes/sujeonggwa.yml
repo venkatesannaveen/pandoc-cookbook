@@ -1,0 +1,6 @@
+sujeonggwa: &sujeonggwa
+  name: Sujeonggwa (수정과)
+  type: drink
+  categories:
+    - korean
+    - cinnamon
